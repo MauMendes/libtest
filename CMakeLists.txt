@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
+
+project(mytest)
+
 set(MYTEST_LIB mytest)
 
 # Add all the source files
