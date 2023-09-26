@@ -5,6 +5,6 @@ project(mytest)
 set(MYTEST_LIB mytest)
 
 # Add all the source files
-file(GLOB_RECURSE MYTEST_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
+file(GLOB_RECURSE MYTEST_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/mytest/*.cpp")
 
 add_library(${MYTEST_LIB} STATIC ${MYTEST_SOURCES})
